@@ -30,7 +30,8 @@ namespace WordsPhrases
         {
             get
             {
-                return this.text;
+                //Se agrega Trim() para eliminar los epscios.
+                return this.text.Trim();
             }
 
             set
